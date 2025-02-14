@@ -1,0 +1,6 @@
+<div class="container mt-4">
+    <app-searching (addTask)="addTask($event)"></app-searching>
+    <app-cardcontent [tasks]="tasks" (deleteTask)="deleteTask($event)" (editTask)="editTask($event)"></app-cardcontent>
+  </div>
+  
+
